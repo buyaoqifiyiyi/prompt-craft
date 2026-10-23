@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');require(p.join(process.env.PLUGIN_ROOT??process.env.CLAUDE_PLUGIN_ROOT,'scripts','prompt_router.cjs'))\"",
+            "timeout": 5,
+            "statusMessage": "判断是否需要增强提示词"
+          }
+        ]
+      }
+    ]
+  }
+}

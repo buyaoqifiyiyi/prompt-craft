@@ -1,0 +1,20 @@
+{
+  "name": "prompt-craft-local",
+  "interface": {
+    "displayName": "提示词增强 · 本地开发"
+  },
+  "plugins": [
+    {
+      "name": "prompt-craft",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-craft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

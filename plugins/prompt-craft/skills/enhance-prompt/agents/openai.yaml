@@ -1,0 +1,6 @@
+interface:
+  display_name: "提示词增强"
+  short_description: "把粗糙想法整理成可用提示词，支持快速增强、关键追问和主动选择的深度质询"
+  default_prompt: "用 $prompt-craft:enhance-prompt 将下面的想法整理成可直接使用的提示词。"
+policy:
+  allow_implicit_invocation: true
