@@ -1,6 +1,6 @@
 {
   "name": "prompt-craft",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "项目任务快速整理后继续执行，关键决策缺失才澄清；普通聊天和单点操作直接放行。",
   "author": {
     "name": "本地开发"
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "提示词增强",
     "shortDescription": "在当前会话自动澄清、增强并继续完成任务",
-    "longDescription": "在当前会话识别任务：项目优化、排查、具体分析方案和多步产出先快速增强；关键缺口才追问。普通聊天、简单问答和单点操作直接处理，支持只给提示词。",
+    "longDescription": "在当前会话自动增强并继续执行，按需使用故障修复、项目优化、调研选型、内容设计短模板；关键缺口才追问，普通聊天和单点操作直接处理。",
     "developerName": "本地开发",
     "category": "Productivity",
     "capabilities": [
